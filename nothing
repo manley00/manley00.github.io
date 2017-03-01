@@ -1,0 +1,26 @@
+http://eskipaper.com/images/amazing-cloud-background-1.jpg
+http://www.anonews.co/wp-content/uploads/2016/02/jag_360000-1000x600.jpg
+
+
+
+<body>
+	<div id="wrapper">
+		<div id="header"></div>
+		<div id="navcontainer"></div>
+		<div id="content"></div>
+		<div id="footer"></div>
+	</div>
+</body>
+
+https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/austin-2.jpg
+
+
+http://www.techumber.com/simple-chat-engine-using-html5-server-sent-events-and-php/
+
+
+this.setName = function() {
+        name = document.getElementById("NameInputBox")
+        if (!name || name === "") {
+            name = "Chater";
+        }
+        name = name.replace(/(<([^>]+)>)/ig, "");

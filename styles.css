@@ -1,0 +1,68 @@
+html { 
+  background: url("http://eskipaper.com/images/amazing-cloud-background-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+    font-family: "Lato",sans-serif,"Geomanist";
+    text-align: center;
+    
+}
+
+h1 {
+    background-color: #993333;
+    background-size: 50px auto;
+}
+
+
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
+}
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #369;
+}
+
+#content {
+    background-color: #993333;
+    height: 500px;
+    width: auto;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+#footer {
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2em;
+    bottom: 0;
+    position: relative;
+    
+}
+p {
+    top:94%;
+    font-size: 18px;
+    color: brown;
+}
+
+
+
