@@ -1,12 +1,12 @@
 html { 
   background: url("http://eskipaper.com/images/amazing-cloud-background-1.jpg") no-repeat center center fixed;
   background-size: cover;
+  size: auto;
 }
 
-body {
+#wrapper {
     font-family: "Lato",sans-serif,"Geomanist";
     text-align: center;
-    
 }
 
 h1 {
@@ -61,8 +61,5 @@ h2 {
 p {
     top:94%;
     font-size: 18px;
-    color: brown;
+    color: #000;
 }
-
-
-

@@ -2,31 +2,29 @@
 <html>
     <head>
         <!-- ***Thank You For Viewing My 	Mchat  v1.0 -->
-        <title>Mchat</title>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-9440045662164466",
-    enable_page_level_ads: true
-  });
-</script>
+        <title>MC Tech</title>
+        
     </head>
     <body>
-    	<script type="text/javascript" src="chat.js"></script>
-        <link rel="stylesheet" href="chat.css" />
+    	<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="chat.js"></script>
+    	<link rel="stylesheet" href="styles.css" />
     	
     	<div id="wrapper">
             <div id="header">
                 <h1 align="center" color="blue">
-            <font color="#000">MC-OFFICIAL</font>
+            <font color="#000">MC Tech</font>
             </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="main.js"></script>
             
             <div id="navcontainer">
                 <ul style="list-style: none;">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
+                <li><a href="video.html">Video</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="chat.html">Chat</a></li>
                 <li><a href="countdown.html">CountDown</a></li>
                 </ul>
             </div>
@@ -35,22 +33,15 @@
             <div id="content">
             <article>
                 <h2 style="background-color: #002766" style="color:#993333"><b>Welcome To Mchat room</b></h2>
+                
+            <aside>
+                <div id="messages"></div>
+                <input type="text" id="nameInput" placeholder="Name">
+                <input type="text" id="messageInput" placeholder="Message">
+            </aside>
             </article>
-        </div>
-       
-        <div id="chatBoxContainer">
-            <div id="clockDisplay" class="clockStyle">
-                <u><b>Thank You For Viewing!</b></u></div>
-            <div id="messageOutputBox"></div>
-            <input id="messageSendButton" type="button" 
-                value="Send" onclick="messageSend();" />
-            <input id="textClearButton" value="Clear Input Box"
-                type="button" onclick="clearAllText();" />
-            <input id="nameInputBox" type="text" 
-                placeholder="Input your name here" />
-            <textarea id="messageInputBox" 
-                placeholder="Input your message here"></textarea>
-        </div>
+            
+            
         <div id="footer">
             <a href="https://www.instagram.com/manley_0/">
                                 <img src="http://btifest.com/wp-content/uploads/2016/07/instagram-Logo-PNG-Transparent-Background-download-300x300.png" width="40px" height="40px" />

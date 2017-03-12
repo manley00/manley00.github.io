@@ -1,6 +1,13 @@
 http://eskipaper.com/images/amazing-cloud-background-1.jpg
 http://www.anonews.co/wp-content/uploads/2016/02/jag_360000-1000x600.jpg
 
+<li><a href="https://www.youtube.com/channel/UCTk-94rGaLzdPlucpyN0XLw">Video</a></li>
+
+body {
+    font-family: "Lato",sans-serif,"Geomanist";
+    text-align: center;
+    
+}
 
 
 <body>
